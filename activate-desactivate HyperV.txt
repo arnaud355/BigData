@@ -1,0 +1,9 @@
+abaleh@simplonformations.onmicrosoft.com
+mdp: 
+
+in adminpowershell :
+disactive hyper V
+dism.exe /Online /Disable-Feature:Microsoft-Hyper-V
+
+active hyper V
+dism.exe /Online /Enable-Feature:Microsoft-Hyper-V /All
